@@ -55,3 +55,4 @@ variable "tags" {
     Project     = "lambda-dynamodb-example"
   }
 }
+
