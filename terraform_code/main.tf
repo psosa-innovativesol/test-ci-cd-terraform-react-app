@@ -28,7 +28,7 @@ module "lambda" {
   tags = var.tags
 }
 
-# DynamoDB module
+# DynamoDB module adding more
 module "dynamodb" {
   source = "./modules/dynamodb"
   
