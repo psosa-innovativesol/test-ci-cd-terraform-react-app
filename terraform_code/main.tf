@@ -28,7 +28,7 @@ module "lambda" {
   tags = var.tags
 }
 
-# DynamoDB module
+# DynamoDB module adding more to comment to trigger action
 module "dynamodb" {
   source = "./modules/dynamodb"
   
