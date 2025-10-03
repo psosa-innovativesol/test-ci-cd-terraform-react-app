@@ -28,7 +28,7 @@ module "lambda" {
   tags = var.tags
 }
 
-# DynamoDB module sdafasf
+# DynamoDB module sdafasf updated aws creds stuff
 module "dynamodb" {
   source = "./modules/dynamodb"
   
