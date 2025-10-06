@@ -214,7 +214,7 @@ function SimpleForm() {
                   type="text"
                   value={loginCredentials.username}
                   onChange={(e) => handleLoginChange('username', e.target.value)}
-                  placeholder="Enter your username"
+                  placeholder="Enter your username123"
                   style={{
                     width: '100%',
                     padding: '12px',
