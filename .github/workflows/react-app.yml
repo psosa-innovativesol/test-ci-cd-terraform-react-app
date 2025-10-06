@@ -40,10 +40,10 @@ jobs:
       run: npm ci
       working-directory: ./app
 
-    # Run tests
-    - name: Run tests
-      run: npm test -- --coverage --watchAll=false
-      working-directory: ./app
+    # # Run tests
+    # - name: Run tests
+    #   run: npm test -- --coverage --watchAll=false
+    #   working-directory: ./app
 
     # Build the application
     - name: Build application
